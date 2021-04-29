@@ -15,11 +15,15 @@ export default class MiddleSection extends Component {
         <div id="about">
           <About />
         </div>
+
+        <div id="resume">
+          <Resume />
+        </div>
         <div id="projects">
           <Projects />
         </div>
-        <div id="resume">
-          <Resume />
+        <div id="contact">
+          <Contact />
         </div>
       </>
     );

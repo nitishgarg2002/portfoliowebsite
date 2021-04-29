@@ -5,13 +5,13 @@ class About extends Component {
   render() {
     return (
       <div id="about">
-        <div style={{ height: "100px" }} />
+        <div style={{ height: "50px" }} />
         <Container className=" text-left h5 container-fluid  rounded">
           <div className="h2 mt-5 mb-3 pl-3 ">About me</div>
           <Row>
             <Col sm={4}>
               <Image
-                className="rounded pb-5 pl-3"
+                className="rounded  pl-3"
                 src={image}
                 width="80%"
                 height="100%"

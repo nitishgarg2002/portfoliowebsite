@@ -4,6 +4,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
+        <div style={{ height: "100px" }} />
         <Container className="text-left pl-3">
           <div className="h2 font-weight-bold">Education</div>
           <Row className="my-4">
