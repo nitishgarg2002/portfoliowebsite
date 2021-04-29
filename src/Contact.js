@@ -4,7 +4,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <div style={{ height: "100px" }} />
+        <div style={{ height: "50px" }} />
         <Container>
           <h2 className="text-center font-weight bold mb-4 ">
             Wanna Collaborate ?
