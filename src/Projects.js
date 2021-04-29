@@ -1,11 +1,15 @@
 import React, { Component } from "react";
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 class Projects extends Component {
   render() {
     return (
       <div>
-        <Container></Container>
+        <Container>
+          <Row>
+            <Col></Col>
+          </Row>
+        </Container>
       </div>
     );
   }

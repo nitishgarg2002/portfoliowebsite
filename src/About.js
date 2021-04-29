@@ -7,7 +7,7 @@ class About extends Component {
       <div id="about">
         <div style={{ height: "100px" }} />
         <Container className=" text-left h5 container-fluid  rounded">
-          <div className="h3 mt-5 mb-3 pl-3 ">About me</div>
+          <div className="h2 mt-5 mb-3 pl-3 ">About me</div>
           <Row>
             <Col sm={4}>
               <Image

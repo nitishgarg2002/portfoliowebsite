@@ -23,7 +23,7 @@ class NavBar extends Component {
                 <Link to="about" spy={true} smooth={true}>
                   <Nav.Link className="mx-5">ABOUT</Nav.Link>
                 </Link>
-                <Link to="service" spy={true} smooth={true}>
+                <Link to="resume" spy={true} smooth={true}>
                   <Nav.Link className=" mx-5">RESUME</Nav.Link>
                 </Link>
               </Nav>

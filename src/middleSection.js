@@ -3,6 +3,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Home from "./Home";
 import Projects from "./Projects";
+import Resume from "./Resume";
 
 export default class MiddleSection extends Component {
   render() {
@@ -14,11 +15,11 @@ export default class MiddleSection extends Component {
         <div id="about">
           <About />
         </div>
-        <div id="contact">
+        <div id="projects">
           <Projects />
         </div>
-        <div id="service">
-          <Contact />
+        <div id="resume">
+          <Resume />
         </div>
       </>
     );
