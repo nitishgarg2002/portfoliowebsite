@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { SocialIcon } from "react-social-icons";
 class Home extends Component {
+  openInNewTab = (url) => {
+    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+    if (newWindow) newWindow.opener = null;
+  };
   render() {
     return (
       <div>
@@ -15,21 +19,25 @@ class Home extends Component {
             className="mx-2"
             height="50%"
             url="https://github.com/nitishgarg2002"
+            target="_blank"
           />
           <SocialIcon
             className="mx-2"
             height="50%"
             url="https://www.linkedin.com/in/nitish-garg-54a815198/"
+            target="_blank"
           />
           <SocialIcon
             className="mx-2"
             height="50%"
             url="https://www.instagram.com/nitish.garg__/"
+            target="_blank"
           />
           <SocialIcon
             className="mx-2"
             height="50%"
             url="https://www.facebook.com/nitish.garg.71465/"
+            target="_blank"
           />
         </div>
       </div>

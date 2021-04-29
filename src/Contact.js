@@ -15,7 +15,6 @@ class Contact extends Component {
                 <Form.Label>Name</Form.Label>
                 <Form.Control type="name" placeholder="Enter Name" />
               </Form.Group>
-
               <Form.Group as={Col} controlId="formGridPassword">
                 <Form.Label>Email</Form.Label>
                 <Form.Control type="email" placeholder="Email-Id" />
@@ -23,7 +22,7 @@ class Contact extends Component {
             </Form.Row>
             <Form.Group controlId="exampleForm.ControlTextarea1">
               <Form.Label>Enter Your Message</Form.Label>
-              <Form.Control as="textarea" rows={3} />
+              <Form.Control as="textarea" placeholder="Your message" rows={3} />
             </Form.Group>
             <Button className="mb-5" variant="primary" type="submit">
               Submit

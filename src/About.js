@@ -8,11 +8,11 @@ class About extends Component {
       <div id="about">
         <div style={{ height: "50px" }} />
         <Container className=" text-left h5 container-fluid  rounded">
-          <div className="h2 mt-5 mb-3 pl-3 ">About me</div>
+          <div className="h2 mt-5 mb-3 ">About me</div>
           <Row>
             <Col sm={4}>
               <Image
-                className="rounded  pl-3"
+                className="rounded  "
                 src={image}
                 width="80%"
                 height="100%"
@@ -25,7 +25,7 @@ class About extends Component {
               <strong>
                 Mobile App Development,Web development and database design
               </strong>
-              . I'm a ENC Sophomore at Thapar Institute of Engineering and
+              . I'm an ENC Sophomore at Thapar Institute of Engineering and
               Technology. I love to Create, Analyze, Solve and Code.
             </Col>
           </Row>

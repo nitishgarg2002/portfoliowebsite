@@ -14,10 +14,10 @@ class Projects extends Component {
     return (
       <div id="projects">
         <div style={{ height: "60px" }} />
-        <Container className="text-left pl-3">
+        <Container className="text-left pl-3 container-fluid">
           <div className="h2 font-weight-bold">Projects</div>
           <Row className="mt-4">
-            <Col sm={4}>
+            <Col sm className="ml-5">
               <a href="https://github.com/nitishgarg2002/TIES">
                 <Image
                   className="shadow"
@@ -27,12 +27,12 @@ class Projects extends Component {
                 />
               </a>
             </Col>
-            <Col sm={4}>
+            <Col sm className="ml-5">
               <a href="https://github.com/nitishgarg2002/covid19-VijayApp-1">
                 <Image className="shadow" src={ties} width="80%" height="80%" />
               </a>
             </Col>
-            <Col sm={4}>
+            <Col sm className="ml-5">
               <a href="https://github.com/nitishgarg2002/flutter_news">
                 <Image className="shadow" src={news} width="80%" height="80%" />
               </a>
