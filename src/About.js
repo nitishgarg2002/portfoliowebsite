@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import image from "./assets/upwork.png";
+
 class About extends Component {
   render() {
     return (
