@@ -18,7 +18,11 @@ class Projects extends Component {
           <div className="h2 font-weight-bold">Projects</div>
           <Row className="mt-4">
             <Col sm className="ml-5">
-              <a href="https://github.com/nitishgarg2002/TIES">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/nitishgarg2002/TIES"
+              >
                 <Image
                   className="shadow"
                   src={image}
@@ -28,12 +32,20 @@ class Projects extends Component {
               </a>
             </Col>
             <Col sm className="ml-5">
-              <a href="https://github.com/nitishgarg2002/covid19-VijayApp-1">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/nitishgarg2002/covid19-VijayApp-1"
+              >
                 <Image className="shadow" src={ties} width="80%" height="80%" />
               </a>
             </Col>
             <Col sm className="ml-5">
-              <a href="https://github.com/nitishgarg2002/flutter_news">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/nitishgarg2002/flutter_news"
+              >
                 <Image className="shadow" src={news} width="80%" height="80%" />
               </a>
             </Col>
