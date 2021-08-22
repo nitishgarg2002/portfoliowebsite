@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
-import { Navbar, Nav } from "react-bootstrap";
+import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
 
 class NavBar extends Component {
   render() {
@@ -8,10 +8,10 @@ class NavBar extends Component {
       <>
         <Navbar
           collapseOnSelect
+          style={{ backgroundColor: "black", color: "white" }}
+          variant="dark"
           expand="lg"
-          bg="light "
           className="font-weight-bold h5 fixed-top"
-          variant="light"
         >
           <Nav className="justify-content-center">
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />

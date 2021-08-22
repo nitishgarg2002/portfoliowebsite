@@ -14,10 +14,18 @@ class Projects extends Component {
     return (
       <div id="projects">
         <div style={{ height: "60px" }} />
-        <Container className="text-left pl-3 container-fluid">
-          <div className="h2 font-weight-bold">Projects</div>
+        <Container style={{}} className=" container-fluid">
+          <div className="h2 font-weight-bold">My Projects</div>
+          <hr
+            style={{
+              backgroundColor: "#fa8143",
+              color: "#fa8143",
+              height: 3,
+              width: "10%",
+            }}
+          />
           <Row className="mt-4">
-            <Col sm className="ml-5">
+            <Col sm className="">
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -31,7 +39,7 @@ class Projects extends Component {
                 />
               </a>
             </Col>
-            <Col sm className="ml-5">
+            <Col sm className="">
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -40,7 +48,7 @@ class Projects extends Component {
                 <Image className="shadow" src={ties} width="80%" height="80%" />
               </a>
             </Col>
-            <Col sm className="ml-5">
+            <Col sm className="">
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -54,7 +62,15 @@ class Projects extends Component {
 
         <Button
           onClick={() => this.openInNewTab("https://github.com/nitishgarg2002")}
-          className="btn btn-dark"
+          className="btn "
+          style={{
+            backgroundColor: "#000000",
+            borderColor: "#000000",
+            marginTop: "0px",
+            onMouseOver: " this.backgroundColor: '#ffffff'",
+            onMouseOut: " backgroundColor: '#fa8143'",
+            borderRadius: "0px",
+          }}
         >
           View More on Github
         </Button>
